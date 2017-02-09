@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>EasySped</name>
+    <version>3.0.3</version>
+    <stability>stable</stability>
+    <license uri="http://shop.cooder.it/terms-condition.html">Cooder</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Modulo integrazione sistema EasySpedDe e EasySped Web</summary>
+    <description>Questo modulo permette di generare automaticamente, alla creazione di ogni spedizione in Magento, una riga in un csv, costruito secondo le linee guida di Bartolini, per l'importazione all'interno del sistema web EasySped, di tutte le informazioni necessarie, in modo che non ci siano pi&#xF9; problemi di errori nella copia dei dati o passaggio manuale dei dati.</description>
+    <notes>EasySpedDe &amp; EasySped Web Supported</notes>
+    <authors><author><name>astrolabio</name><user>MAG001528634</user><email>info@astrolabiosolutions.it</email></author></authors>
+    <date>2016-01-04</date>
+    <time>10:34:44</time>
+    <contents><target name="magemedia"><dir name="easysped"><dir name="IN"><file name="FNVAB0000001.CHK" hash="d41d8cd98f00b204e9800998ecf8427e"/><file name="FNVAB0000001.TXT" hash="f504dbb64716c2199f28a127c7f2b76f"/><file name="FNVAB0000002.CHK" hash="d41d8cd98f00b204e9800998ecf8427e"/><file name="FNVAB0000002.TXT" hash="f5badc7013aa41cbb4e11d855ca6a5d0"/></dir></dir></target><target name="mageetc"><dir name="."><file name="Cooder_EasySped.xml" hash=""/></dir></target><target name="magecommunity"><dir name="Cooder"><dir name="EasySped"><dir><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><file name="Grid.php" hash="bf15b22407a8a11f9bef8130e527c7b5"/><file name="View.php" hash="a96b7a65b1dc2439634e99c607827183"/></dir><file name="Shipment.php" hash="ebc047547d3c6545c2fc8c2ec2d7946d"/></dir></dir><file name="General.php" hash="56121f837b778a4d9ec2a024b2c16e8f"/></dir><dir name="Helper"><file name="Data.php" hash="6800a66f6c5ded1d52fa656f5958ac37"/></dir><dir name="Model"><file name="Csv.php" hash="e8c332ee12a342462d9a4958b28305b2"/><file name="Line.php" hash="c82df323072cbf259f847743c821408e"/><file name="Mail.php" hash="a0521ee43df50356780d514f94d45191"/><file name="Manual.php" hash="75c3709bf4c6177297106f32b713b118"/><file name="Observer.php" hash="fb3204a409726151164083a515dc8bf3"/><dir name="Source"><file name="Notifica.php" hash="e550f910cc9277ab6429129c50e5dc81"/><file name="Payment.php" hash="601fa4f6954ede49849e1c5cb930e5c6"/><file name="Servizio.php" hash="4bd54f44e68a55da99f455c55666a694"/><file name="Tipemode.php" hash="b66502c69555ae9ad298ca5492eb0b22"/><file name="Usemode.php" hash="76c8ab12cc65de208d6d13e1779e47ac"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="IndexController.php" hash="22d47ddd416e9d1ba61523b304fdbde2"/></dir></dir><dir name="etc"><file name="config.xml" hash="ccdddc313364d248e60fad75c68cd171"/><file name="system.xml" hash="fd66abdc8ae6c7ccb6d8c08b1f846851"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>7.0.0</max></php></required></dependencies>
+</package>
